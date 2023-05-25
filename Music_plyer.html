@@ -1,0 +1,47 @@
+<html>
+  <head>
+    <title>Spotify</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="Music_plyer.css" />
+  </head>
+  <body>
+    <div class="music">
+      <div class="music-image">
+        <img
+          src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbg0sBs1SXsaGchCwtrNAxVfMah1qmijQhU7GP3pE4nB1738dqnuK_xHsMGATFHfBTVlk&usqp=CAU"
+        />
+      </div>
+
+      <audio src="kuch is tarah.mp3" id="audio"></audio>
+      <div class="music-container">
+        <div>
+          <h2 class="music-title">Kuch Is Tarah</h2>
+          <p class="music-artist">Atif Aslam</p>
+        </div>
+
+        <i class="fa-regular fa-heart"></i>
+      </div>
+
+      <div class="music-time">
+        <p>0.00</p>
+        <input type="range" id="music-control" />
+        <p>3.48</p>
+      </div>
+
+      <div class="music-control">
+        <i class="fa-solid fa-backward-step"></i>
+        <i id="play-btn" class="fa-solid fa-circle-play"></i>
+        <i class="fa-solid fa-forward-step"></i>
+      </div>
+    </div>
+    <script src="Music_plyer.js"></script>
+  </body>
+</html>
